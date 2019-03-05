@@ -217,6 +217,7 @@ public class VideoChatViewActivity extends AppCompatActivity {
         tipMsg.setVisibility(View.GONE);
     }
 
+    //leave channel
     private void leaveChannel() {
         mRtcEngine.leaveChannel();
     }
